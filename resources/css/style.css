@@ -1,0 +1,211 @@
+/* Universal Styles */
+
+body{
+  margin: 0;
+  font-family: "Helvetica", serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  justify-content: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1400px;
+}
+
+/* Header Styles */
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px:
+  text-decoration: underline;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo img{
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+nav a{
+  float: right;
+  font-weight: 500;
+  align-content: center;
+  margin: 10px;
+}
+
+span a {
+  color: seashell;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* Mission Styles */
+
+/* Mission Container */
+
+.mission {
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  justify-items: center;
+  margin: auto;
+  margin-top: 79px;
+}
+
+/* Mission Items */
+
+.mission-box{
+  width: 100%;
+  height: 100px;
+  background: black;
+  border: 0px;
+  margin: 0px;
+  padding: 10px;
+}
+
+.mission-box h2{
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mission-box h4{
+  padding: 0px;
+}
+/* Tea of the Month Styles */
+
+/* Tea of the Month Large Container */
+
+.tea-of-the-month{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  height: auto;
+  width: 1000px;
+  margin: auto;
+  justify-items: center;
+  align-items:center;
+}
+
+/* Tea of the Month Smaller Container */
+
+.tea-of-the-month-box{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+/* Tea of the Month Items */
+
+.tea{
+  display: block;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.tea-of-the-month-box h2{
+  font-weight: bold;
+  margin: auto;
+  width: 100%;
+}
+
+.tea-of-the-month-box img{
+  display: block;
+  height: 200px;
+  width:300px;
+}
+
+.tea-of-the-month-box h4{
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Location Styles */
+
+/* Location Container */
+
+.locations {
+  display: block;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1000px;
+  margin: auto;
+  justify-items: center;
+  align-items:center;
+  padding: 70px;
+}
+
+/* Location Items */
+
+.locations h2{
+  display: flex;
+  font-weight: bold;
+  width: 100%;
+  justify-content: center;
+}
+
+.location-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+}
+
+.location-box{
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  width: 300px;
+  height: 220px;
+  margin: 10px;
+  background: black;
+  padding: 0px;
+  opacity: 1.0;
+}
+
+.location-heading h3{
+  font-weight: bold;
+}
+
+/* Footer Styles */
+
+/* Copyright */
+
+.footer-info h5{
+    font-weight: bolder;
+}
+
+.footer-info h2{
+    font-weight: bold;
+}
+.copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-weight: bold;
+}
